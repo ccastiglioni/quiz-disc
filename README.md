@@ -4,7 +4,7 @@
 
 PHP DISC  Home Page ->
 
-![q1] https://github.com/ccastiglioni/quiz-disc/blob/master/pergutas.png)
+![q1](https://github.com/ccastiglioni/quiz-disc/blob/master/pergutas.png)
 
 
 Admin PHP DISC ->
