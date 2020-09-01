@@ -4,12 +4,12 @@
 
 PHP DISC  Home Page ->
 
-![q1] .png)
+![q1] https://github.com/ccastiglioni/quiz-disc/blob/master/pergutas.png)
 
 
-PHP DISC ->
+Admin PHP DISC ->
 
-![q2](.png)
+![q2](https://github.com/ccastiglioni/quiz-disc/blob/master/admin.png)
 
 
 
