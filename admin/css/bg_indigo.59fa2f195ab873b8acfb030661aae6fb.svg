@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280px" height="600px" viewBox="0 0 1280 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>IndigoBackground</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="41.7251978%" y1="55.3731859%" x2="23.3765706%" y2="55.3731859%" id="linearGradient-1">
+            <stop stop-color="#283593" offset="0%"></stop>
+            <stop stop-color="#1E287E" offset="100%"></stop>
+            <stop stop-color="#1A237E" offset="100%"></stop>
+            <stop stop-color="#283082" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.2841646%" y1="50%" x2="15.915227%" y2="48.0077959%" id="linearGradient-2">
+            <stop stop-color="#273698" offset="0%"></stop>
+            <stop stop-color="#283082" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="62.1199586%" y1="51.0945502%" x2="15.915227%" y2="48.0077959%" id="linearGradient-3">
+            <stop stop-color="#3949AB" offset="0%"></stop>
+            <stop stop-color="#283593" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Final-Backgrounds" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IndigoBackground">
+            <g id="Group" transform="translate(-230.000000, -249.000000)">
+                <polygon id="Fill-1" fill="url(#linearGradient-1)" transform="translate(1335.801979, 549.402184) rotate(25.000000) translate(-1335.801979, -549.402184) " points="1040.25713 1017.7856 1631.34682 742.155949 1629.43913 81.0187702 1150.17932 304.501288"></polygon>
+                <polygon id="Fill-1" fill="url(#linearGradient-2)" transform="translate(839.801979, 549.402184) rotate(25.000000) translate(-839.801979, -549.402184) " points="544.257134 1017.7856 1135.34682 742.155949 1133.43913 81.0187702 654.179324 304.501288"></polygon>
+                <polygon id="Fill-1" fill="url(#linearGradient-3)" transform="translate(405.148021, 495.418141) rotate(25.000000) translate(-405.148021, -495.418141) " points="395.840156 889.892885 542.513327 821.498063 668.026843 100.943398 142.269199 346.108213"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,7 @@
- 
-	<nav class="ts-sidebar">
+<?php $baseurl= $_SERVER["SERVER_NAME"]; ?> 
+	<nav class="ts-sidebar" style="
+    background: url('http://<?=$baseurl?>/quiz-disc/admin/css/bg_indigo.59fa2f195ab873b8acfb030661aae6fb.svg') 50% no-repeat;
+    background-size: cover;">
 			<ul class="ts-sidebar-menu">
 				<li class="ts-label">Main</li>
 				<li>

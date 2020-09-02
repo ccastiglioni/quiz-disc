@@ -1,5 +1,5 @@
 <div class="brand clearfix">
-<h4 class="pull-left text-white" style="margin:20px 0px 0px 20px"><i class="fa fa-rocket"></i>&nbsp; DISC</h4>
+<a href="dashboard"><h4 class="pull-left text-white" style="margin:20px 0px 0px 20px"><i class="fa fa-inbox"></i>&nbsp; DISC</h4></a>
 		<span class="menu-btn"><i class="fa fa-bars"></i></span>
 		<ul class="ts-profile-nav">
 			

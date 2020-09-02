@@ -552,7 +552,7 @@ li {
   border-bottom: 1px solid #f0f0f0;
 }
 .brand {
-  background: #3e454c;
+  background: #1B7BF5;
   position: relative;
   z-index: 3;
   position: fixed;
@@ -612,14 +612,14 @@ li {
 }
 .brand .ts-profile-nav li ul li a {
   padding: 10px 20px;
-  background: #222;
+  background: #1B7BF5;
 }
 .brand .ts-profile-nav .ts-account .fa-angle-down {
   float: right;
 }
 .brand .ts-profile-nav .ts-account > a {
   width: 180px;
-  background: #2c3136;
+  background: ##1B7BF5;
 }
 .brand .ts-profile-nav .ts-account .ts-avatar {
   border-radius: 50%;
@@ -680,7 +680,7 @@ li {
   }
 }
 .ts-sidebar-menu .ts-label {
-  color: #585c64;
+  color: #fff;
   font-weight: bold;
   padding: 8px 15px;
   text-transform: uppercase;
@@ -698,7 +698,7 @@ li {
   position: relative;
 }
 .ts-sidebar-menu li i {
-  color: #585c64;
+  color: white;
   margin-right: 10px;
 }
 .ts-sidebar-menu li ul {
