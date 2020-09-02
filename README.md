@@ -1,5 +1,5 @@
 # PHP DISC
-##  Esse quiz tem cadastro de Coach como alguém que elabora as pergutas e um admin com mais permissões que gerencia esses Coachs cadastrados
+##  Esse quiz tem cadastro de Coach como alguém que elabora as perguntas e um admin com mais permissões que gerencia esses Coachs cadastrados
 
 
 PHP DISC  Home Page ->
@@ -9,7 +9,7 @@ PHP DISC  Home Page ->
 
 Admin PHP DISC ->
 
-![q2](https://github.com/ccastiglioni/quiz-disc/blob/master/admin.png)
+![q2](https://github.com/ccastiglioni/quiz-disc/blob/master/admin-.png)
 
 
 
@@ -31,4 +31,5 @@ Back-end:   PHP, MySqli
 login   : admin-super
 password:  963852741
 
- 
+### Para acessar o perfil coach:
+admin/coach 
