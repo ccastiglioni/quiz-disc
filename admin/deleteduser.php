@@ -93,10 +93,15 @@ else{
 												<th>Delete Time</th>
 										</tr>
 									</thead>
-									
 									<tbody>
 
-<?php $sql = "SELECT * from  deleteduser";
+<?php
+ 
+ if ($_SESSION['tipo_user'] =="coach") {
+  	$sql ="SELECT * from deleteduser WHERE coach_id =".$_SESSION['coach_id'] ;;
+ }else{
+   $sql ="SELECT * from deleteduser ";
+ }
 $query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);

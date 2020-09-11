@@ -1,13 +1,8 @@
 <?php 
 session_start();
- 
-
 include 'connection.php';
 if (isset($_SESSION['id'])) {
 	$id_coach = $_SESSION['id'];
-	//var_dump($_SESSION['coach_id']);
- 
-	//$_SESSION['coach_id'] =  $id_coach;
 $query = "SELECT * FROM questions WHERE coach_id = ".$_SESSION['coach_id'];
 $run = mysqli_query($dbh , $query) or die($query);
 $total = mysqli_num_rows($run);
