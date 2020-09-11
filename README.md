@@ -12,11 +12,16 @@ Admin PHP DISC ->
 ![q2](https://github.com/ccastiglioni/quiz-disc/blob/master/admin-.png)
 
 
+### Se você usou a ferramenta pode doar Qualquer valor, para manter ela sempre atualizada! :D
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QPW7WWKE3B3V4&currency_code=BRL)
+
 
 ### Requirements 
 
 - PHP 5.6 or higher recommended 
-- MySQL DB
+- MySQL DB 
+
 
 ### Tools Used
 Front-end :  HTML, CSS
