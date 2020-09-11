@@ -12,10 +12,11 @@ if(isset($_POST['login'])){
 	$query-> execute();
 	$results = $query->fetchAll(PDO::FETCH_OBJ);
 	if($query->rowCount() > 0){
-		$_SESSION['alogin']   = $_POST['username'];
-		$_SESSION['nome']     = $results[0]->UserName;
-		$_SESSION['genero']   = 'masculino';
-		$_SESSION['tipo_user']  = 'admin';
+		$_SESSION['alogin']    = $_POST['username'];
+		$_SESSION['nome']      = $results[0]->UserName;
+		$_SESSION['admin_id']  = $results[0]->id;
+		$_SESSION['genero']    = 'masculino';
+		$_SESSION['tipo_user'] = 'admin';
 		echo "<script type='text/javascript'> document.location = 'dashboard'; </script>";
 	} else{
 	  echo "<script>alert('Invalid Details');</script>";

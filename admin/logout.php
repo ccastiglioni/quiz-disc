@@ -14,8 +14,10 @@ if (isset($_SESSION['coach_id'])) {
     header("location:index"); 
 }
 
-$_SESSION = array();
 unset($_SESSION['login']);
+unset($_SESSION['admin_id']);
+unset($_SESSION['coach_id']);
+$_SESSION = array();
 session_destroy();  
 ?>
 

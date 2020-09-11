@@ -1,16 +1,17 @@
 <?php
 session_start();
-include 'connection.php';
+  
 
-$id_coach             = $_POST['id_coach'];
-$_SESSION['coach_id'] = $id_coach;
-$name 				  = $_POST['name'];
+include 'connection.php';
 	   
 if (isset($_SESSION['id'])) {
 	header("location: home");
 }
  
 if (isset($_POST['email'])) {
+	$id_coach             = $_POST['id_coach'];
+	$_SESSION['coach_id'] = $id_coach;
+	$name 				  = $_POST['name'];
     $email = mysqli_real_escape_string($dbh , $_POST['email']);
 	$checkmail = "SELECT * from users WHERE email = '$email'";
 	$runcheck = mysqli_query($dbh , $checkmail) or die(mysqli_error($dbh));
@@ -94,7 +95,7 @@ if (isset($_POST['email'])) {
 						<select name="id_coach" class="selection-2" >
 						<option>Selecione ...</option>
 						<?php 
-						$sql = "SELECT * from coach";
+						$sql = "SELECT * from coach WHERE status =1";
 						$runcheck = mysqli_query($dbh , $sql) or die(mysqli_error($dbh));
 						if (mysqli_num_rows($runcheck) > 0) {
 							foreach ( mysqli_query($dbh , $sql) as $key => $value) {

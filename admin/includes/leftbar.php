@@ -23,6 +23,9 @@
 				<li>
 					<a href="perguntas"><i class="fa fa-download"></i> &nbsp;Gerenciar Perguntas</a>
 				</li>
+				 	 	<li>
+					<a href="charts"><i class="fa fa-bar-chart"></i> &nbsp;Gráficos</a>
+				</li>
 			</ul>
 			<p class="text-center" style="color:#ffffff; margin-top: 100px;">© Questionário DISC</p>
 

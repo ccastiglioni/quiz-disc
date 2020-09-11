@@ -53,7 +53,7 @@ else{
 											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
 <?php 
- if ($_SESSIO['tipo_user'] =="coach") {	
+ if ($_SESSION['tipo_user'] =="coach") {	
 	$sql ="SELECT id from users where coach_id=".$_SESSION['coach_id'] ;
  }else{
 	$sql ="SELECT id from users " ;
@@ -122,7 +122,12 @@ $regbd2=$query12->rowCount();
 											<div class="panel-body bk-info text-light">
 												<div class="stat-panel text-center">
 												<?php 
-$sql6 ="SELECT id from deleteduser ";
+  if ($_SESSION['tipo_user'] =="coach") {
+  	$sql6 ="SELECT id from deleteduser WHERE coach_id =".$_SESSION['coach_id'] ;;
+ }else{
+   $sql6 ="SELECT id from deleteduser ";
+ }
+
 $query6 = $dbh -> prepare($sql6);;
 $query6->execute();
 $results6=$query6->fetchAll(PDO::FETCH_OBJ);

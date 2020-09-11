@@ -115,47 +115,21 @@ $totalqn = mysqli_num_rows($run);
 <br>
 </form>
 <script>
-	 $(document).ready(function(){
+$(document).ready(function(){
 	$('#button_id').on('click',function(){
 	     ('#form_id').submit();
-	     //alert("cdscds")
 	 });
+
+	 if (window.history && window.history.pushState) {
+		    window.history.pushState('forward', null, './#forward');
+		    $(window).on('popstate', function() {
+		    	if (confirm("Click em OK para encerrar ..\n Suas respostas serão excluidas!")) {
+		      		window.location.href = 'exit';
+		    	}
+		    });
+     }
  });
 </script>
-<!-- 
-				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Needed Services</span>
-					<div>
-						<select class="selection-2" name="service">
-							<option>Choose Services</option>
-							<option>Online Store</option>
-							<option>eCommerce Bussiness</option>
-							<option>UI/UX Design</option>
-							<option>Online Services</option>
-						</select>
-					</div>
-					<span class="focus-input100"></span>
-				</div> 
-
-				<div class="wrap-input100 input100-select">
-					<span class="label-input100">Budget</span>
-					<div>
-						<select class="selection-2" name="budget">
-							<option>Select Budget</option>
-							<option>1500 $</option>
-							<option>2000 $</option>
-							<option>2500 $</option>
-						</select>
-					</div>
-					<span class="focus-input100"></span>
-				</div>]
-
-
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<span class="label-input100">Message</span>
-					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-					<span class="focus-input100"></span>
-				</div>-->
 		</div>
 	</div>
 

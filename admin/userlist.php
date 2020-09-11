@@ -7,7 +7,6 @@ include('includes/config.php');
 if(strlen($_SESSION['alogin'])==0)
 {	    
     $setcoach = isset( $_COOKIE['coach'] );
- 
     $path = ($setcoach) ? '/coach' : 'index';
 
     if (headers_sent()) 
@@ -25,9 +24,10 @@ $query = $dbh->prepare($sql);
 $query -> bindParam(':id',$id, PDO::PARAM_STR);
 $query -> execute();
 
-$sql2 = "INSERT INTO deleteduser (email) values (:name)";
+$sql2 = "INSERT INTO deleteduser (email,coach_id) values (:name,:coach_id)";
 $query2 = $dbh->prepare($sql2);
 $query2 -> bindParam(':name',$name, PDO::PARAM_STR);
+$query2 -> bindParam(':coach_id',$_SESSION['coach_id'], PDO::PARAM_STR);
 $query2 -> execute();
 
 $msg="Usuário deletado!";
