@@ -37,4 +37,8 @@ login   : admin-super
 password:  963852741
 
 ### Para acessar o perfil coach:
-admin/coach 
+admin/coach
+
+### DEMO:
+http://info-dev.epizy.com/disc/
+ 

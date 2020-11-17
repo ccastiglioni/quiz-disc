@@ -1,7 +1,8 @@
 ﻿<?php 
 include 'host.php';
 
-if ( getHost() == "localhost" ||  getHost() =="127.0.0.1"  ) {
+
+if ( getHost() == "localhost" ||  getHost() =="127.0.0.1" ||  getHost() =="www.cleber.com.br" ||  getHost() =="cleber.com.br"  ) {
     define('DB_HOST','localhost');
     define('DB_USER','root');
     define('DB_PASS','120521');

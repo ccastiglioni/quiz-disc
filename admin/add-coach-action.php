@@ -63,7 +63,7 @@ if(isset($_POST['submit']))
                VALUES ( '{$name}', '{$email}', '{$cpf}', '{$empresa}', {$rg}, '{$telefone}' ,'{$Escolaridade}','{$Rede_Social1}' , '{$Rede_Social2}' , '{$Logradouro}','{$bairro}','{$Tipo_Endereco}' ,'{$Complemento}' ,'{$cep}' ,'{$Cidade}','{$UF}', '{$gender}' ,'{$senhamd5}' ,'{$imagem}')";
     $query = $dbh->prepare($sql);
     $query->execute() or die($sql);
-    $msg="muito bem..Cadastro realizado!"; 
+    $msg=" muito bem..Cadastro realizado!"; 
     }     
 
 }    
